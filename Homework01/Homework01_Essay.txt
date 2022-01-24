@@ -3,3 +3,5 @@ Funnily enough (if I may go on a little spiel), I'm actually taking this class a
 Anyway, the big difference between CMD and a GUI is often described as a difference in "ease of use." The avergae person, who is only superficially familiar with computers, will prefer a GUI. GUI's use icons and rather simple selection processes like a mouse or screen-taps to make selections or change settings. Command-line interfaces, however, are all accomplished via text input (and output). The first computers were operated entirely this way. GUI's did not exist when computers first came into being.
 
 Just about the only way they're similar, in fact, is that they're both ways in which a use may input instructions to a computer.
+
+Also, I hope it's okay that, after last semester, I continue to use the GitHub desktop app to push changes to my repo. I find it's just much easier to do everything on my computer. (Thank you for introducing me to that tool, by the way. It's pretty user-friendly and intuitive.)

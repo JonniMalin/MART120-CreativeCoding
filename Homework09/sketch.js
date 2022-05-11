@@ -1,0 +1,50 @@
+function setup() {
+  createCanvas(500,500);
+}
+
+function draw() {
+  background(220);
+  fill(241,194,125);
+  ellipse(200,175,150,160);
+  ellipse(195,170,22,40);
+  triangle(275,175,259,125,300,175);
+  rect(175,250,45,43);
+  fill(76,153,76);
+  ellipse(230,147,30,15);
+  fill(137,98,20);
+  beginShape();
+  vertex(259,125);
+  vertex(255,120);
+  vertex(240,105);
+  vertex(225,98);
+  vertex(200,94);
+  vertex(175,98);
+  vertex(160,105);
+  vertex(140,123);
+  vertex(130,140);
+  vertex(125,160);
+  vertex(124,175);
+  vertex(110,175);
+  vertex(100,180);
+  vertex(93,190);
+  vertex(93,240);
+  vertex(90,280);
+  vertex(85,320);
+  vertex(75,390);
+  vertex(75,410);
+  vertex(80,440);
+  vertex(95,400);
+  vertex(107,390);
+  vertex(120,375);
+  vertex(125,370);
+  vertex(123,340);
+  vertex(123,300);
+  vertex(120,275);
+  vertex(118,250);
+  vertex(115,200);
+  vertex(119,194);
+  vertex(126,194);
+  vertex(175,180);
+  vertex(185,150);
+  endShape(CLOSE);
+}

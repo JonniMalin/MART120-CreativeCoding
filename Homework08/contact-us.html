@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us!</title>
+    <script>
+      // create the function for checking the form
+      function checkForm()
+      {
+        var userName = document.getElementById("yourName").value;
+        var emailAddress = document.getElementById("yourEmail").value;
+        if(userName == "")
+        {
+          document.getElementById("yourName").style.borderColor = "red";
+          document.getElementById("yourName").focus();
+        }
+          else if(emailAddress == "")
+          {
+            document.getElementById("yourEmail").style.borderColor = "red";
+            document.getElementById("yourEmail").focus();
+          }
+        if(document.querySelector('input[name="yesorno"]:checked') == null))
+          {
+            window.alert("Please accept our terms and conditions to continue.")
+            /*
+            I really struggled to figure out the radio button conditions.
+            I did all kinds of Google searching and got a million answers, but
+            none of them seem to work or are too complex for me to understand.
+            I refuse to use an "answer" if I can't comprehend on my own, because
+            that would be plagiarism. It would also be useless to me.
+            I will submit for now and return to it later
+            */
+          }
+      }
+    </script>
+  </head>
+  <body style="background-color: #FAE596">
+    <h2>Contact Form</h2>
+      <label>Your name:
+        <input type="text" id="yourName" />
+      </label>
+      <br />
+      <br />
+      <label>Your email address:
+        <input type="text" id="yourEmail" />
+      </label>
+      <br />
+      <br />
+      <label>Do you consent to our terms and conditions?
+        <input id="answerYes" type="radio" name="yesorno" value="m">
+        <label for="Yes">Yes</label>
+        <input id="answerNo" type="radio" name="yesorno" value="f">
+        <label for="No">No</label>
+      </label>
+      <br />
+      <br />
+      <label>
+        <button id="submitButton" onclick='checkForm();'>Submit</button>
+      </label>
+  </body>
+</html>

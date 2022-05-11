@@ -47,4 +47,7 @@ function draw() {
   vertex(175,180);
   vertex(185,150);
   endShape(CLOSE);
+  fill(0,0,0);
+  textSize(40);
+  text('Jonni D.',300,350);
 }

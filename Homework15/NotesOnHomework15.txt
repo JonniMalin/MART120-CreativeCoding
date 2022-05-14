@@ -1,0 +1,8 @@
+Professor Cassens,
+
+I left a multi-line comment in the JavaScript file named "noMovement" and I would be very grateful if you could give me some feedback on what's wrong with my code. I've tried removing one of my sets of shapes (I wanted to do some circles and squares for my shape cascade), but removing the circles or the squares didn't work. I tried to log in the console, but wasn't able to figure out what's up. In fact, I'm not getting any movement in either of my JavaScript files at this point. I even cross-referenced with your example to try and figure out where I went wrong in my movement code, but I wasn't able to figure it out.
+
+Any help you could provide would be invaluable.
+
+Thank you!
+-Johnelle
